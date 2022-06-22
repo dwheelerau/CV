@@ -1,0 +1,163 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.85]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{David} % Your first name
+\familyname{Wheeler, PhD} % Your last name
+
+% All information i65n this block is optional, comment out any lines you don't need
+%\title{Curriculum Vitae}
+\address{Orange Agricultural Institute}{Orange 2800, Australia}
+\mobile{(+61) 431 012 702}
+%\fax{(000) 111 1113}
+\email{dave.wheeler@dpi.nsw.gov.au}
+\homepage{www.dpi.nsw.gov.au}{www.dpi.nsw.gov.au} % The first argument is %the url for the clickable link, the second argument is the url displayed in the %template - this allows special characters to be displayed such as the tilde in this %example
+%\extrainfo{additional information}
+%\photo[70pt][0.4pt]{picture} % The first bracket is the picture height, the second is %the thickness of the frame around the picture (0pt for no frame)
+%\quote{Seeking a Job Opportunity or a PhD Placement by the 10th of September - 23 years old}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2003}{PhD, Department of Molecular Life Sciences, University of Adelaide}{}{}{}{"The globen genes of the Tammar wallaby"}  % Arguments not required can be left empty
+
+\cventry{1997}{B.Sc. Honours (First Class), Department of Genetics, University of Adelaide}{}{}{}{}
+
+\cventry{1996}{B.Sc. (Jurisprudence), University of Adelaide}{}{}{}{Majoring in Genetics and Law}
+
+%----------------------------------------------------------------------------------------
+%	EMPLOYMENT
+%----------------------------------------------------------------------------------------
+
+\section{Employment}
+\cventry{2018--now}{Data Science Team}{}{Department of Primary Industries, NSW}{}{}
+\cventry{2017--2018}{Bioinformatician and Managing director}{}{Nextgen Bioinformatic Services Ltd, NZ}{}{}
+\cventry{2013--2017}{Lecturer in Genomics and Bioinformatics}{}{Institute of Fundamental Sciences, Massey University, NZ (0.8 FTE)}{}{}
+\cventry{2013--2017}{Bioinformatician}{}{New Zealand Genomics Ltd, NZ (0.2 FTE)}{}{}
+\cventry{2010--2013}{Postdoctoral Fellow}{}{Bioinformatician, PI Prof. John Werren, Department of Biology, University of Rochester, NY, USA}{}{}
+\cventry{2008--2010}{Postdoctoral Fellow}{}{Bioinformatician, PI Prof. Michael Herman, Ecological Genomics Institute, Kansas State University, KS, USA}{}{}
+\cventry{2005--2007}{Postdoctoral Fellow}{}{Molecular biologist, PI A/Prof. Edward Newbigin, Department of Botany, University of Melbourne, AUS}{}{}
+\cventry{2002--2003}{Research Assistant}{}{Department of Physiology, University of Adelaide, AUS}{}{}
+\cventry{2002}{Research Assistant}{}{Evolutionary Biology Unit, SA State Museum, AUS}{}{}
+
+
+%----------------------------------------------------------------------------------------
+%	BIOINFORMATICS
+%----------------------------------------------------------------------------------------
+
+\section{Bioinformatics}
+\cvitem{Mappers}{BWA, STAR, GEM, tophat, hisat2, bbmap}
+\cvitem{RNA-seq}{DESeq2, edgeR, cufflinks, ballgown, DEXseq}
+\cvitem{SNP/WGBS}{GATK, freebayes, samtools, SNPeff, vcftools, bsmap package}
+\cvitem{Marker}{plink, tassel, stacks, gbs-snp-crop}
+\cvitem{Assembly}{SOAP \textit{de novo}, velvet, oases, trinity, IDBA-UD, SPAdes, MIRA, ABySS, canu}
+\cvitem{Metagenomics}{DIAMOND/PAUDA, megan, QIIME, phyloseq, flash}
+\cvitem{Phylogenetics}{PAUP, Mrbayes, paml, phylip}
+\cvitem{QC}{SolexQA, cut-adapt, fastq-mcf, bbduk}
+\cvitem{Homology}{NCBI-BLAST tools, muscle, clustalw2}
+\cvitem{Misc}{git, Geneious, Galaxy, tmux, vim, javascript D3 plotting library}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Computer skills}
+
+\cvitem{Advanced}{Python, bash}
+\cvitem{Proficient}{HTML, \LaTeX, web frameworks (Django, flask), R, javascript }
+% * <dwheelerau.work@gmail.com> 2018-08-10T05:30:30.624Z:
+%
+% ^.
+% * <dwheelerau.work@gmail.com> 2018-08-10T05:30:29.399Z:
+%
+% ^.
+\cvitem{Basic}{Perl, JAVA }
+
+%----------------------------------------------------------------------------------------
+%	AWARDS
+%----------------------------------------------------------------------------------------
+
+\section{Awards and grants}
+\cventry{2017}{Royal Society of NZ Marsden Fund}{}{Associate investigator on successful applications 17-MAU-023 and 17-MAU-119, combined funding \$1,700,000 NZD}{}{}
+\cventry{2016}{Health Research Council NZ}{}{Associate investigator successful application "Targeting HP1 regulated pathways to suppress breast cell invasion", funding \$199,792 NZD}{}{}
+\cventry{2016}{Massey University Research Fund}{}{Associate investigator on successful application "Investigating the molecular basis of P uptake in green algae  to support decentralized wastewater treatment in rural communities", funding \$14,000 NZD}{}{}
+\cventry{2015}{Massey University Research Fund}{}{Primary investigator on successful application "Exploring the transcriptome dynamics of a intracellular bacteria and its host using RNA-seq", funding \$24,000 NZD}{}{}
+
+
+% , awarded to the top student in Honours Genetics, University of Adelaide
+%----------------------------------------------------------------------------------------
+%	PROFESSIONAL ACTIVIES
+%----------------------------------------------------------------------------------------
+%\bigskip
+
+\section{Professional activities}
+\cvitem{Reviewer}{Molecular Biology and Evolution, BMC Genomics, PLoSOne, The Database Journal, Scientific Reports, Journal of Venom research, Bioinformatics, Toxins and Biology Insights.}
+\cvitem{Grant review}{Ministry of Business Innovation and Employment New Zealand (phase I and II), Austrian Science Fund, Research Foundation Flanders.}
+
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+%\newpage
+%\section{Publications}
+
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\bibliographystyle{vancouver} unsrt
+
+\bibliographystyle{unsrt}
+\bibliography{mypapers}
+\nocite{*}
+
+
+
+
+\end{document}
