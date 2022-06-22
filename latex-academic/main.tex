@@ -1,0 +1,250 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.85]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{David} % Your first name
+\familyname{Wheeler, PhD} % Your last name
+
+% All information i65n this block is optional, comment out any lines you don't need
+%\title{Curriculum Vitae}
+\address{Nextgen Bioinformatic Services}{Palmerston North, NZ, 4412}
+\mobile{(+64) 2 7966 3724}
+%\fax{(000) 111 1113}
+\email{dave@ngbs.co.nz}
+\homepage{www.ngbs.co.nz}{www.ngbs.co.nz} % The first argument is %the url for the clickable link, the second argument is the url displayed in the %template - this allows special characters to be displayed such as the tilde in this %example
+%\extrainfo{additional information}
+%\photo[70pt][0.4pt]{picture} % The first bracket is the picture height, the second is %the thickness of the frame around the picture (0pt for no frame)
+%\quote{Seeking a Job Opportunity or a PhD Placement by the 10th of September - 23 years old}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2003}{PhD, Department of Molecular Life Sciences, University of Adelaide}{}{}{}{"The globen genes of the Tammar wallaby"}  % Arguments not required can be left empty
+
+\cventry{1997}{B.Sc. Honours (First Class), Department of Genetics, University of Adelaide}{}{}{}{}
+
+\cventry{1996}{B.Sc. (Jurisprudence), University of Adelaide}{}{}{}{Majoring in Genetics and Law}
+
+%----------------------------------------------------------------------------------------
+%	EMPLOYMENT
+%----------------------------------------------------------------------------------------
+
+\section{Employment}
+\cventry{2017--now}{Bioinformatician and Managing director}{}{Nextgen Bioinformatic Services Ltd, NZ}{}{}
+\cventry{2013--2017}{Lecturer in Genomics and Bioinformatics}{}{Institute of Fundamental Sciences, Massey University, NZ (0.8 FTE)}{}{}
+\cventry{2013--2017}{Bioinformatician}{}{New Zealand Genomics Ltd, NZ (0.2 FTE)}{}{}
+\cventry{2010--2013}{Postdoctoral Fellow}{}{Bioinformatician, PI Prof. John Werren, Department of Biology, University of Rochester, NY, USA}{}{}
+\cventry{2008--2010}{Postdoctoral Fellow}{}{Bioinformatician, PI Prof. Michael Herman, Ecological Genomics Institute, Kansas State University, KS, USA}{}{}
+\cventry{2005--2007}{Postdoctoral Fellow}{}{Molecular biologist, PI A/Prof. Edward Newbigin, Department of Botany, University of Melbourne, AUS}{}{}
+\cventry{2002--2003}{Research Assistant}{}{Department of Physiology, University of Adelaide, AUS}{}{}
+\cventry{2002}{Research Assistant}{}{Evolutionary Biology Unit, SA State Museum, AUS}{}{}
+
+
+%----------------------------------------------------------------------------------------
+%	BIOINFORMATICS
+%----------------------------------------------------------------------------------------
+
+\section{Bioinformatics}
+\cvitem{Mappers}{BWA, STAR, GEM, tophat, hisat2, bbmap}
+\cvitem{RNA-seq}{DESeq2, edgeR, cufflinks, ballgown, DEXseq}
+\cvitem{SNP/WGBS}{GATK, freebayes, samtools, SNPeff, vcftools, bsmap package}
+\cvitem{Assembly}{SOAP \textit{de novo}, velvet, oases, trinity, IDBA-UD, SPAdes, MIRA, ABySS}
+\cvitem{Metagenomics}{DIAMOND/PAUDA, megan, QIIME}
+\cvitem{Phylogenetics}{PAUP, Mrbayes, paml, phylip}
+\cvitem{QC}{SolexQA, cut-adapt, fastq-mcf, bbduk}
+\cvitem{Homology}{NCBI-BLAST tools, muscle, clustalw2}
+\cvitem{Misc}{R scripting, BioPython, ggplot2, python-matplotlib, python-pandas, IGV, git, ea-utils, picard tools, Geneious, Galaxy, tmux, vim}
+
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Computer skills}
+
+\cvitem{Advanced}{Python, bash, Lunix system administration}
+\cvitem{Proficient}{HTML, \LaTeX, Django web framework, PBS scripting, R}
+\cvitem{Basic}{Perl, javascript, JAVA}
+
+
+%----------------------------------------------------------------------------------------
+%	RESEARCH
+%----------------------------------------------------------------------------------------
+
+\section{Current activities and Research profile}
+
+\cventry{Current}{\chapter{\normalfont I am particularity excited by the role next generation sequencing will play in helping us gain a better understand our natural environment by giving us access to the genomes of organisms that inhabit it. My business focuses on supplying bioinformatic services to the research community in New Zealand. I have performed service work for scientists across the health, agricultural, ecological and life sciences research disciplines. The themes of my research are ecological genomics, reproductive biology, host-parasite interactions, drug development, agricultural and engineering  systems}}{}{}{}{}
+\cventry{Collaborative}{\chapter{\normalfont Collaboration is also a strong aspect of my research program. As a member of international sequencing consortium's our research has been recently been published in Genome Biology, Current Biology, The ISME journal, Nature communications, and the Plant Journal. In my previous position as a lecturer in Genomics and Bioinformatics at Massey University I developed several local active collaborations, including A/Prof Mary Morgan-Richards (Ecology) and Prof Steve Trewick (Ecology), Dr Andrea Clavijo-McCormick (Ecology), Prof Beniot Guieysse (Engineering), Dr Jan Schmid (IFS Massey), Dr Tracy Hale (IFS Massey), A/Prof Gillian Norris (IFS Massey), A/Prof Jasna Rakonjac (IFS Massey), A/Prof Janet Pitman (VUW) and Ieuan Davies (New Zealand Pharmaceuticals Ltd). I was co-supervisor to seven postgraduate students in the IFS and one Masters student at VUW. }}{}{}{}{}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS
+%----------------------------------------------------------------------------------------
+
+\section{Awards and grants}
+\cventry{ongoing}{Royal Society of NZ Marsden Fund}{}{Associate investigator, Invited to apply for second round with PI Dr Helen Fitzsimons, Institute of Fundamental Science, Massey University}{}{}
+\cventry{ongoing}{Royal Society of NZ Marsden Fund}{}{Associate investigator, Invited to apply for second round, with PI Prof Beniot Guieysse, School of Engineering and Advanced Technology, Massey University}{}{}
+\cventry{2016}{Health Research Council NZ}{}{Associate investigator, "Targeting HP1 regulated pathways to suppress breast cell invasion", \$199,792 NZD}{}{}
+\cventry{2016}{Massey University Research Fund}{}{Associate investigator, "Investigating the molecular basis of P uptake in green algae  to support decentralized wastewater treatment in rural communities", \$14,000 NZD}{}{}
+\cventry{2015}{Massey University Research Fund}{}{Primary investigator, "Exploring the transcriptome dynamics of a intracellular bacteria and its host using RNA-seq", \$24,000 NZD}{}{}
+\cventry{1998}{Australia Postgradate Award}{}{Postgraduate Scholarship awarded based on merit by the Australian Government}{}{}
+\cventry{1997}{Boehringer-mannheim prize}{}{Prize awarded to the highest placed student in Honours Genetics, University of Adelaide}{}{}
+
+
+%----------------------------------------------------------------------------------------
+%	SUPERVISION
+%----------------------------------------------------------------------------------------
+
+\section{Postgraduate Supervision}
+\cventry{Primary}{Ngonidzashe Faya}{}{Studying the molecular interactions between \textit{Nasonia vitripennis} and its associated microbes using RNA-seq}{}{}
+\cventry{Co-supervisor}{Asad Rasaq, Yanni Dong, Patrick Main, Sean Bisset, Lydia Swapna, Van Hung Vuong Le, Raveen Weerasinghe (Masters student), Natasha Quill (Masters student)}{}{}{}{}
+
+
+%----------------------------------------------------------------------------------------
+%	TEACHING
+%----------------------------------------------------------------------------------------
+
+\section{Teaching}
+\cventry{Philosophy}{\chapter{\normalfont My teaching philosophy is motivated by a belief that our students should be playing key roles in the ecological, agricultural and medical revolution that will be driven by cheap sequencing.  As genome sequencing becomes an essential tool across many scientific disciplines, young graduates with skills to process and interpret this non-traditional data will be in high demand both within and outside academia. Our students will also be playing central roles in the development of government policy, working to protect our environment and creating new smart industries}}{}{}{}{}         
+\cventry{Postgraduate}{Research methods in Biosciences}{}{"Developing a research proposal"}{}{}
+\cventry{}{Special topic - Python programming for bioinformatics}{}{Hands on training course for postgraduate students in the use of python for bioinformatics}{}{}
+\cventry{Undergraduate}{Genome anaylsis (Paper coordinator; 3rd year)}{}{Course that covers basic bioinformatics methods used for analysing next generation sequencing data}{}{}
+\cventry{}{DNA Technology (3rd year)}{}{Lectures on high throughput sequencing methods and applications}{}{}
+\cventry{}{Advanced practical genetics (3rd year)}{}{Student mentor}{}{}{}
+\cventry{}{Genetic Analysis (2nd year)}{}{Lectures covering the topic of Developmental genetics}{}{}
+
+
+% , awarded to the top student in Honours Genetics, University of Adelaide
+%----------------------------------------------------------------------------------------
+%	PROFESSIONAL ACTIVIES
+%----------------------------------------------------------------------------------------
+%\bigskip
+
+\section{Professional activities}
+\cvitem{Reviewer}{Molecular Biology and Evolution, BMC Genomics, PLoSOne, The Database Journal, Scientific Reports, Journal of Venom research, Bioinformatics, Toxins and Biology Insights.}
+\cvitem{Grant review}{Ministry of Business Innovation and Employment New Zealand (phase I and II), Austrian Science Fund, Research Foundation Flanders.}
+\cvitem{Invited talks}{"Introduction to Bioinformatics and Genomics tools for Ecologists", IAE, August 2017, Massey University, NZ.}
+\cvitem{}{"What Python can tell us about Donald Trump's twitter habits: an overview of python libraries that help you explore the social web",  Keynote talk, Research Bazaar, February 2017, Massey University, NZ.}
+\cvitem{}{"Insect venoms: A new frontier in drug development?" Genetics Otago symposium 2014, November 26-29th, University of Otago, NZ.}
+\cvitem{}{"Introducing Nasonia vitripennis".  Keynote talk, NZ Entomology Society meeting 2013, April 3-5, Massey University, Palmerston North, NZ.}
+\cvitem{}{"Insights from the recently completed genome of the parasitoid wasp \textit{Nasonia vitripennis}".  Plant and Soil Sciences, 2011, University of Vermont, VT, USA.}
+
+
+%----------------------------------------------------------------------------------------
+%	OUTREACH
+%----------------------------------------------------------------------------------------
+%\bigskip
+
+\section{Outreach activities}
+\cvitem{}{Puhoro day. Developed and ran a hands on practical demonstration for ~60 Maori high school students to enable them to meet NCEA level one requirements related to Achievement Standard AS90948 (Genetic Variation), 2016, IFS, Massey University. }
+\cvitem{}{Leader of the weekly learn to code for life scientists group, including introduction to Linux and Python programing targeted toward science students and staff, Massey University.}{}
+\cvitem{}{My Bioinformatics blog (www.dwheelerau.com) currently has 220,000 views.}{}
+\cvitem{}{Kura Putaiao Day. "The biology of wasps: murderers, thieves and body snatchers!". Lecture presented to year 12 and 13 Maori students from low decile schools, 2013-2015, Massey University.}{}
+\cvitem{}{Demonstrator in molecular biology and bioinformatics sessions, Katoa New Zealand student visit, 2014, IFS, Massey University.}{}
+%\cvitem{}{Introduction to Next Generation Sequencing and Bioinformatics, seminar series, 2015, Te Papa, Wellington.}{}
+% \cvitem{}{Introduction to Next Generation Sequencing and Bioinformatics, seminar series, 2013-2016, Massey University.}{}
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+%\newpage
+%\section{Publications}
+
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\bibliographystyle{vancouver} unsrt
+
+\bibliographystyle{unsrt}
+\bibliography{mypapers}
+\nocite{*}
+
+
+%----------------------------------------------------------------------------------------
+%	REFEREES
+%----------------------------------------------------------------------------------------
+
+\section{Professional References}
+
+\cvitem{}{\textbf{Dr Paul Dijkwel}\newline
+Institute of Fundamental Sciences\newline
+Room 5.08, Science Tower D\newline
+Massey University\newline
+Phone: +64 6 356 9099 ext. 84731\newline
+Email: P.Dijkwel@massey.ac.nz\newline
+Relationship: My manager for New Zealand Genomics Ltd\newline}
+
+\cvitem{}{\textbf{Dr Jenifer Tate}\newline
+Institute of Fundamental Sciences\newline
+Room 5.09, Science Tower D\newline
+Massey University\newline
+Phone: +64 6 356 9099 ext. 84718\newline
+Email: J.Tate@massey.ac.nz\newline
+Relationship: IFS head of group "Genes, Genome, Evolution" (my line manager)\newline}
+
+\cvitem{}{\textbf{Prof Peter Lockhart}\newline
+\newline
+Institute of Fundamental Sciences\newline
+Room XXX, Science Tower D\newline
+Massey University\newline
+Phone: +64 6 356 9099 ext. 84597\newline
+Email: XXX@massey.ac.nz\newline
+Relationship: Academic mentor \newline}
+
+\cvitem{}{\textbf{Prof John (Jack) Werren}\newline
+Department of Biology\newline
+Nathaniel and Helen Wisch Professor of Biology\newline
+HutchisonHall Room 306\newline
+University of Rochester\newline
+Rochester, NY\newline
+Phone: +1 585 275 3694\newline
+Email: jack.werren@rochester.edu\newline
+Relationship: Former postdoctoral supervisor\newline}
+
+\end{document}
